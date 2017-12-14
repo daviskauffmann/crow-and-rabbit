@@ -1,0 +1,74 @@
+body {
+    font-family: 'Indie Flower', sans-serif;
+}
+
+header,
+footer {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background-image: url('http://via.placeholder.com/1600x1200');
+    background-color: red;
+    background-blend-mode: lighten;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 64px;
+}
+
+section h1 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.person {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.person>.image {}
+
+.person>.bio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .person {
+        flex-direction: row;
+    }
+    .amanda .image {
+        order: 2;
+    }
+    .amanda .bio {
+        order: 1;
+    }
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-between;
+}
+
+.grid img {
+    flex-grow: 1;
+}
+
+footer {
+    background-image: url('http://via.placeholder.com/1600x1200');
+    background-color: blue;
+    background-blend-mode: lighten;
+}

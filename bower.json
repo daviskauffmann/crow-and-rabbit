@@ -1,0 +1,22 @@
+{
+  "name": "crow-and-rabbit",
+  "authors": [
+    "Davis Kauffmann <daviskauffmann@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "scrollreveal": "^3.3.6",
+    "normalize-css": "^7.0.0",
+    "googleFonts": "https://google-fonts.azurewebsites.net/googleFonts/?family=Indie+Flower"
+  }
+}
